@@ -16,7 +16,7 @@
   <header class="header">
     <nav class="nav">
       <ul class="nav__ul">
-        <li class="nav__li"><a class="nav__a" href="#">Contacts</a></li>
+        <li class="nav__li"><a class="nav__a" href="#contacts">Contacts</a></li>
         <li class="nav__li"><a class="nav__a" href="#">About</a></li>
         <li class="nav__li"><a class="nav__a" href="#">Skills</a></li>
         <li class="nav__li"><a class="nav__a" href="#">Projects</a></li>
@@ -27,11 +27,27 @@
     </nav>
   </header>
   <main class="main">
-    <section class="contacts">
+    <section id="contacts" class="contacts">
       <div class="introduction">
-        <h1>Pavel Didenko</h1>
+        <h1 class="introduction__name">Pavel Didenko</h1>
         <br>
-        <h2>Frontend Developer</h2>
+        <hr class="hr introduction__hr">
+        <br>
+        <h2 class="introduction__profession">Frontend Developer</h2>
+        <br>
+      </div>
+      <div class="contact-info">
+        <div class="contact-info__foto">
+          <img src="assets/IMG/foto.jpg" alt="foto" class="foto__img">
+        </div>
+        <div class="contact-info__info">
+          <h3>Contact information:</h3>
+          <br>
+          <p class="contact-info__p"><span><b>Phone:</b> </span><span>+375445379839</span></p>
+          <p class="contact-info__p"><span><b>E-mail:</b> </span><span><a href="mailto:win4ester2016@yandex.ru">win4ester2016@yandex.ru</a></span></p>
+          <p class="contact-info__p"><span><b>LinkedIn:</b> </span><span><a href="https://www.linkedin.com/in/pavel-didenko-9b6371181/">pavel-didenko-9b6371181</a></span></p>
+          <p class="contact-info__p"><span><b>GitHub:</b> </span><span><a href="https://github.com/Win4esterD">Win4esterD</a></span></p>
+        </div>
       </div>
     </section>
   </main>

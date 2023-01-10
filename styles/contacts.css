@@ -1,4 +1,35 @@
 .introduction{
-  margin: 1em 0 0 15vw;
+  margin: 1em 0 0 var(--main-margin-left);
   font-family: var(--main-font-family);
+}
+
+.introduction__name{
+  font-size: 2.5em;
+}
+
+hr{
+  width: 60vw;
+  height: 0.25em;
+  background: #e1e4e8;
+  border: 0;
+}
+
+.introduction__profession{
+  font-size: 2em;
+}
+
+.contact-info{
+  display: flex;
+  margin-left: var(--main-margin-left);
+  font-family: var(--main-font-family);
+  gap: 2vw;
+}
+
+.contact-info__info{
+  margin-top: 1em;
+}
+
+.contact-info__p{
+  font-size: 1.1em;
+  padding: 0.5em 0em 0.5em 0em;
 }

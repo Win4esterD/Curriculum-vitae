@@ -3,6 +3,10 @@
   padding: 0 0 0 0;
 }
 
+a{
+  color: #0366d6;
+  text-decoration: none;
+}
 
 .header{
   display: flex;
