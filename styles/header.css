@@ -1,0 +1,39 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+
+.header{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  background: black;
+}
+
+.nav__ul{
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  padding-top: 1.1em;
+  list-style: none;
+}
+
+.nav__li{
+  transition: .5s;
+}
+
+.nav__li:hover{
+  transform: scale(1.1);
+}
+
+.nav__a{
+  color: white;
+  text-decoration: none;
+  font-family: var(--main-font-family);
+  font-size: 1.2em;
+}
+
+.nav__a:hover{
+  color: orange;
+}
