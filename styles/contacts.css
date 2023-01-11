@@ -1,6 +1,5 @@
 .introduction{
   margin: 1em 0 0 var(--main-margin-left);
-  font-family: var(--main-font-family);
 }
 
 .introduction__name{
@@ -8,7 +7,7 @@
 }
 
 hr{
-  width: 60vw;
+  width: var(--main-width);
   height: 0.25em;
   background: #e1e4e8;
   border: 0;
@@ -21,7 +20,6 @@ hr{
 .contact-info{
   display: flex;
   margin-left: var(--main-margin-left);
-  font-family: var(--main-font-family);
   gap: 2vw;
 }
 

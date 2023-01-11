@@ -8,17 +8,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/basic-styles.css">
   <link rel="stylesheet" href="styles/variables.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/contacts.css">
+  <link rel="stylesheet" href="styles/about.css">
+  <link rel="stylesheet" href="styles/proficiency.css">
+  <link rel="stylesheet" href="styles/projects.css">
+  <link rel="stylesheet" href="styles/education.css">
 </head>
 <body>
   <header class="header">
     <nav class="nav">
       <ul class="nav__ul">
         <li class="nav__li"><a class="nav__a" href="#contacts">Contacts</a></li>
-        <li class="nav__li"><a class="nav__a" href="#">About</a></li>
-        <li class="nav__li"><a class="nav__a" href="#">Skills</a></li>
+        <li class="nav__li"><a class="nav__a" href="#about">About</a></li>
+        <li class="nav__li"><a class="nav__a" href="#proficiency">Skills</a></li>
         <li class="nav__li"><a class="nav__a" href="#">Projects</a></li>
         <li class="nav__li"><a class="nav__a" href="#">Education</a></li>
         <li class="nav__li"><a class="nav__a" href="#">Courses</a></li>
@@ -50,7 +55,116 @@
         </div>
       </div>
     </section>
+    <br>
+    <hr class="hr divider">
+    <br>
+    <section class="about" id="about">
+      <div class="about__wrapper">
+        <h2 class="about__title">About me</h2>
+        <br>
+        <p class="about__p"><span><b>Birth date:</b> </span><span> 13.09.1991</span></p>
+        <p class="about__p"><span><b>Country:</b> </span><span> Belarus</span></p>
+        <p class="about__p"><span><b>City:</b> </span><span> Borisov</span></p>
+        <p class="about__p"><span><b>Ready for relocation:</b> </span><span> Yes</span></p>
+        <article class="article">
+          <p class="article__p">
+            I'm self learning programmer. Since December 2020 I started to learn programming. Used to learn Python and SQL using <a href="https://stepik.org/learn">stepic.org</a>
+            In February 2021 I assigned to internship to the <a href="https://join.itechart.com/">iTechArt</a> company, on the position of Python Developer Trainee.
+            My internship in iTechArt wasn't successful because my experience wasn't enough to accomplish all the tasks. In September 2022 I assigned to <a href="https://rollingscopes.com/">Rolling Scopes School</a>,
+            to study <b>Frontend development</b> and gained a lot of experience with their course, created some study projects, links to the source code and deployed versions of the projects
+            you can find below.
+          </p>
+        </article>
+      </div>
+    </section>
+    <br>
+    <hr class="hr divider">
+    <br>
+    <section class="proficiency" id="proficiency">
+      <div class="proficiency-wrapper">
+        <h2 class="proficiency-title">
+          Skills and Proficiency:
+        </h2>
+        <br>
+        <ul class="proficiency__ul">
+          <li class="proficiency__li">HTML/CSS</li>
+          <li class="proficiency__li">Javascript</li>
+          <li class="proficiency__li">Figma</li>
+          <li class="proficiency__li">Photoshop</li>
+          <li class="proficiency__li">Git/GitHub</li>
+          <li class="proficiency__li">Webpack</li>
+          <li class="proficiency__li">Node JS</li>
+          <li class="proficiency__li">Python</li>
+          <li class="proficiency__li">Django</li>
+          <li class="proficiency__li">SQL</li>
+          <li class="proficiency__li">English (B2)</li>
+          <li class="proficiency__li">Spanish (B1)</li>
+          <li class="proficiency__li">Russian (Native)</li>
+        </ul>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section class="projects">
+      <div class="projects-wrapper">
+        <h2 class="projects-title">
+          My projects:
+        </h2>
+        <br>
+        <table class="projects__table">
+          <thead class="projects__thead">
+            <tr class="projects__tr">
+              <th class="projects__th">Project</th>
+              <th class="projects__th">GitHub</th>
+              <th class="projects__th">Technologies</th>
+              <th class="projects__th">Publishment</th>
+            </tr>
+          </thead>
+          <tbody class="projects__tbody">
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section class="education">
+      <div class="education-wrapper">
+        <h2 class="education-title">
+          Education:
+        </h2>
+        <br>
+        <table class="education__table">
+          <thead class="education__thead">
+            <tr class="education__tr">
+              <th class="education__th">Name of the educational institution</th>
+              <th class="education__th">Years of study</th>
+              <th class="education__th">Specialization</th>
+              <th class="education__th">Profession</th>
+            </tr>
+          </thead>
+          <tbody class="education__tbody">
+            <tr class="education__tr">
+              <td class="education__td">
+                <a href="http://bseu.by/">Belorussian State Economics University</a>
+              </td>
+              <td class="education__td">2011 - 2017</td>
+              <td class="education__td">International Economy</td>
+              <td class="education__td">Economist</td>
+            </tr>
+            <tr class="education__tr">
+              <td class="education__td">
+                <a href="https://bgk-borisov.by/">Borisov State College</a>
+              </td>
+              <td class="education__td">2007 - 2010</td>
+              <td class="education__td">Mechanical Engineering</td>
+              <td class="education__td">Operator / adjuster of machines with program control</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
   </main>
   <footer class="footer"></footer>
+  <script type="module" src="JS/index.js"></script>
 </body>
 </html>
