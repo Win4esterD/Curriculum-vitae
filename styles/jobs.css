@@ -28,3 +28,9 @@
 .jobs__tr:nth-child(even){
   background: var(--even-cell-background);
 }
+
+@media (max-width: 367px){
+  .jobs__table{
+    font-size: 0.9em;
+  }
+}

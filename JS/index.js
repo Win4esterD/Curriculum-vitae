@@ -18,7 +18,7 @@ function generateProjectRow(num){
 
     const gitHubCell = document.createElement("td");
     gitHubCell.className = "projects__td";
-    gitHubCell.innerHTML = `<a href="${link}">${name}<a>`;
+    gitHubCell.innerHTML = `<a href="${link}">link<a>`;
     tableRow.appendChild(gitHubCell);
 
     const technologiesCell = document.createElement("td");

@@ -31,8 +31,13 @@
 }
 
 @media (max-width: 462px){
-
   .projects__table{
     font-size: 0.9em;
+  }
+}
+
+@media (max-width: 400px){
+  .projects__table{
+    font-size: 0.8em;
   }
 }

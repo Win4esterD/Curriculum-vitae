@@ -36,14 +36,26 @@
 
 }
 
-@media(max-width: 586px){
+@media (max-width: 586px){
   .courses__th{
     font-size: 0.9em;
   }
 }
 
-@media(max-width: 508px){
+@media (max-width: 508px){
   .year{
     display:none;
+  }
+}
+
+@media (max-width: 413px){
+  .courses__table{
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 375px){
+  .courses__table{
+    font-size: 0.8em;
   }
 }
