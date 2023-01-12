@@ -94,6 +94,24 @@ function fillCourseTable(){
     courses.reverse().map((item, index) => generateCourseRow(index));
 }
 
+function burgerMenu(){
+    const menu = document.querySelector('.burger-menu');
+    const header = document.querySelector('.header');
+    const navigation = document.querySelector('.nav__ul');
+
+    menu.addEventListener('click', () => {
+      if(window.getComputedStyle(navigation).display === 'none'){
+        navigation.style.display = 'flex';
+        header.style.height = '50px';
+      }else{
+        navigation.style.display = 'none';
+        header.style.height = "20px";
+      }
+      console.log(window.getComputedStyle(navigation).display)
+    })
+}
+
 fillProjectTable();
-fillCourseTable()
+fillCourseTable();
+burgerMenu()
 

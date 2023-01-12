@@ -1,5 +1,5 @@
 .header{
-  display: flex;
+  display: block;
   justify-content: center;
   height: 2.5em;
   background: black;
@@ -10,7 +10,7 @@
 }
 
 .nav{
-  margin-left: -9vw;
+  margin-left: var(--main-margin-left);
 }
 
 .nav__ul{
@@ -45,22 +45,22 @@
   }
 }
 
-@media (max-width: 900px){
-  .nav{
-    margin-left: -3vw;
-  }
-}
-
 @media (max-width: 660px){
   .header{
     height: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
   }
 
   .nav__ul{
-    font-size: 0.87em;
+    font-size: 0.8em;
     flex-direction: column;
     align-items: center;
     display: none;
+    flex-wrap: wrap;
+    height: 40px;
   }
 
   .burger-menu{
@@ -70,3 +70,13 @@
     top: 1px;
   }
 }
+
+/* @media (max-width: 460px){
+  .burger-menu{
+    right: 10vw;
+  }
+
+  .header{
+    max-width: 100%;
+  }
+} */
