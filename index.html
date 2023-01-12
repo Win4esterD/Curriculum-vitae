@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="styles/projects.css">
   <link rel="stylesheet" href="styles/education.css">
   <link rel="stylesheet" href="styles/jobs.css">
+  <link rel="stylesheet" href="styles/courses.css">
+  <link rel="stylesheet" href="styles/printer.css">
 </head>
 <body>
   <header class="header">
@@ -25,12 +27,15 @@
         <li class="nav__li"><a class="nav__a" href="#contacts">Contacts</a></li>
         <li class="nav__li"><a class="nav__a" href="#about">About</a></li>
         <li class="nav__li"><a class="nav__a" href="#proficiency">Skills</a></li>
-        <li class="nav__li"><a class="nav__a" href="#">Projects</a></li>
-        <li class="nav__li"><a class="nav__a" href="#">Education</a></li>
-        <li class="nav__li"><a class="nav__a" href="#">Courses</a></li>
-        <li class="nav__li"><a class="nav__a" href="#">Jobs</a></li>
+        <li class="nav__li"><a class="nav__a" href="#projects">Projects</a></li>
+        <li class="nav__li"><a class="nav__a" href="#education">Education</a></li>
+        <li class="nav__li"><a class="nav__a" href="#jobs">Jobs</a></li>
+        <li class="nav__li"><a class="nav__a" href="#courses">Courses</a></li>
     </ul>
     </nav>
+    <div class="burger-menu">
+      <img class="burger-menu__img" src="assets/IMG/burger_menu.png" alt="Burger menu">
+    </div>
   </header>
   <main class="main">
     <section id="contacts" class="contacts">
@@ -44,7 +49,7 @@
       </div>
       <div class="contact-info">
         <div class="contact-info__foto">
-          <img src="assets/IMG/foto.jpg" alt="foto" class="foto__img">
+          <img src="assets/IMG/foto.jpg" alt="foto" class="contact-info__img">
         </div>
         <div class="contact-info__info">
           <h3>Contact information:</h3>
@@ -82,7 +87,7 @@
     <hr class="hr divider">
     <br>
     <section class="proficiency" id="proficiency">
-      <div class="proficiency-wrapper">
+      <div class="proficiency__wrapper">
         <h2 class="proficiency__title">
           Skills and Proficiency:
         </h2>
@@ -106,8 +111,8 @@
     </section>
     <br>
     <br>
-    <section class="projects">
-      <div class="projects-wrapper">
+    <section class="projects" id="projects">
+      <div class="projects__wrapper">
         <h2 class="projects__title">
           My projects:
         </h2>
@@ -128,8 +133,8 @@
     </section>
     <br>
     <br>
-    <section class="education">
-      <div class="education-wrapper">
+    <section class="education" id="education">
+      <div class="education__wrapper">
         <h2 class="education__title">
           Education:
         </h2>
@@ -158,15 +163,15 @@
               </td>
               <td class="education__td">2007 - 2010</td>
               <td class="education__td">Mechanical Engineering</td>
-              <td class="education__td">Operator / adjuster of machines with program control</td>
+              <td class="education__td">CNC Operator / Adjuster</td>
             </tr>
           </tbody>
         </table>
       </div>
     </section>
     <br>
-    <section class="jobs">
-      <div class="jobs-wrapper">
+    <section class="jobs" id="jobs">
+      <div class="jobs__wrapper">
         <h2 class="jobs__title">
           Previous job Positions:
         </h2>
@@ -213,6 +218,30 @@
               <td class="jobs__td">Aug. 2010</td>
               <td class="jobs__td">Dec. 2011</td>
             </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <br>
+    <br>
+    <section class="courses" id="courses">
+      <div class="courses__wrapper">
+        <h2 class="courses__title">
+          Courses:
+        </h2>
+        <br>
+        <table class="courses__table">
+          <thead class="courses__thead">
+            <tr class="courses__tr">
+              <th class="courses__th">Course Name</th>
+              <th class="courses__th">Course provider</th>
+              <th class="courses__th">Course link</th>
+              <th class="courses__th year">Completed</th>
+              <th class="courses__th">Certificate</th>
+            </tr>
+          </thead>
+          <tbody class="courses__tbody">
+            
           </tbody>
         </table>
       </div>

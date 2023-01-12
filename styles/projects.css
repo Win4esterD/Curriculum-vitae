@@ -1,4 +1,4 @@
-.projects-wrapper{
+.projects__wrapper{
   margin-left: var(--main-margin-left);
   width: var(--main-width);
 }
@@ -24,4 +24,15 @@
   border: 1px solid #dfe2e5;
   text-align: center;
   padding: 0.2em 0em;
+}
+
+.projects__tr:nth-child(even){
+  background: var(--even-cell-background);
+}
+
+@media (max-width: 462px){
+
+  .projects__table{
+    font-size: 0.9em;
+  }
 }

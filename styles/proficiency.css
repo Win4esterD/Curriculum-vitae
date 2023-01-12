@@ -1,4 +1,4 @@
-.proficiency-wrapper{
+.proficiency__wrapper{
   margin-left: var(--main-margin-left);
   width: var(--main-width);
 }
@@ -11,3 +11,18 @@
   height: 10vh;
 }
 
+.proficiency__li{
+  padding: 0 0 0 0;
+}
+
+@media (max-width: 700px){
+  .proficiency__ul{
+    height: 15vh;
+  }
+}
+
+@media(max-width: 430px){
+  .proficiency__ul{
+    height: 19vh;
+  }
+}

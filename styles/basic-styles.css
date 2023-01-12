@@ -22,7 +22,3 @@ a:hover{
 .divider{
   margin-left: var(--main-margin-left);
 }
-
-.nav{
-  margin-left: -9vw;
-}

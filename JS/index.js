@@ -42,9 +42,58 @@ function generateProjectRow(num){
 
 
 function fillProjectTable(){
-  projects.reverse().map((value, index) => {
-    generateProjectRow(index);
-  })
+  projects.reverse().map((item, index) => generateProjectRow(index));
+}
+
+function generateCourseRow(num){
+    const name = courses[num].name;
+    const provider = courses[num].provider;
+    const link = courses[num].link;
+    const year = courses[num].year;
+    const certificate = courses[num].certificate;
+
+    const tableBody = document.querySelector('.courses__tbody');
+
+    const tableRow = document.createElement("tr");
+    tableRow.className = "courses__tr";
+
+    const courseCell = document.createElement('td');
+    courseCell.innerHTML = `${name}`;
+    courseCell.className = "courses__td";
+    tableRow.appendChild(courseCell);
+
+    const providerCell = document.createElement('td');
+    providerCell.innerHTML = `${provider}`;
+    providerCell.className = "courses__td";
+    tableRow.appendChild(providerCell);
+
+    const linkCell = document.createElement('td');
+    linkCell.innerHTML = `<a href="${link}">link</a>`;
+    linkCell.className = 'courses__td';
+    tableRow.appendChild(linkCell);
+
+    const yearCell = document.createElement('td');
+    yearCell.innerHTML = `${year}`;
+    yearCell.className = "courses__td year";
+    tableRow.appendChild(yearCell);
+
+    const certificateCell = document.createElement('td');
+    if(certificate !== 'No'){
+      certificateCell.innerHTML = `<a href="${certificate}">Yes</a>`;
+    }else{
+      certificateCell.innerHTML = `${certificate}`;
+    }
+
+    certificateCell.className = 'courses__td';
+    tableRow.appendChild(certificateCell);
+
+    tableBody.appendChild(tableRow);
+}
+
+function fillCourseTable(){
+    courses.reverse().map((item, index) => generateCourseRow(index));
 }
 
 fillProjectTable();
+fillCourseTable()
+
