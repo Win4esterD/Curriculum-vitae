@@ -94,35 +94,5 @@ function fillCourseTable(){
     courses.reverse().map((item, index) => generateCourseRow(index));
 }
 
-
-function burgerMenu(){
-    const menu = document.querySelector('.burger-menu');
-    const header = document.querySelector('.header');
-    const navigation = document.querySelector('.nav__ul');
-    const main = document.querySelector('main');
-
-    menu.addEventListener('click', () => {
-      if(window.getComputedStyle(navigation).display === 'none'){
-        header.style.height = '50px';
-        navigation.style.display = 'flex';
-        setTimeout(() => {
-          navigation.style.opacity = '1';
-        }, 500)
-      }else{
-        navigation.style.opacity = '0';
-        navigation.style.display = 'none';
-        header.style.height = "20px";
-      }
-    });
-
-    main.addEventListener('click', () => {
-      header.style.height = "20px";
-      navigation.style.display = 'none';
-      setTimeout(() => navigation.style.display = 'none', 500)
-    })
-  }
-
 fillProjectTable();
 fillCourseTable();
-burgerMenu()
-
