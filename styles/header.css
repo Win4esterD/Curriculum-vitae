@@ -52,6 +52,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    transition: .5s;
   }
 
   .nav__ul{
@@ -61,6 +62,8 @@
     display: none;
     flex-wrap: wrap;
     height: 40px;
+    transition: 1s;
+    opacity: 0;
   }
 
   .burger-menu{
