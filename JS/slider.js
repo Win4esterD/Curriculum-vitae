@@ -1,14 +1,16 @@
 import slides from '../JSON/flags.json' assert {type: 'json'};
 
 class Slider{
-    constructor(slidesNames, slidesRoute, format, slideIMGSelector, leftArrow, rightArrow){
+    constructor(slidesNames, slidesRoute, format, slideIMGSelector, leftArrow, rightArrow, spansPlace, arrowsBlocker){
       this.slidesNames = slidesNames;
       this.slidesRoute = slidesRoute;
       this.format = format;
       this.img = document.querySelector(slideIMGSelector);
       this.leftArrow = document.querySelector(leftArrow);
       this.rightArrow = document.querySelector(rightArrow);
+      this.spansPlace = document.querySelector(spansPlace);
       this.counter = 0;
+      this.arrowsBlocker = document.querySelector(arrowsBlocker);
     }
 
     setImage(){
@@ -38,22 +40,8 @@ class Slider{
 
     slideLeft(){
       this.leftArrow.addEventListener('click', () => {
-        this.img.style.transform = "translate(-400px)";
-        setTimeout(() => {
-          this.changeLeft();
-          this.img.style.transition = "0s";
-          this.img.style.transform = "translate(400px)";
-        }, 500)
-        setTimeout(() => {
-          this.img.style.transition = "0.5s";
-          this.img.style.transform = "translate(0px)"
-        }, 900)
-      })
-    }
-
-    slideRight(){
-      this.rightArrow.addEventListener('click', () => {
         this.img.style.transform = "translate(400px)";
+        this.arrowsBlocker.style.display = 'block';
         setTimeout(() => {
           this.changeLeft();
           this.img.style.transition = "0s";
@@ -62,15 +50,70 @@ class Slider{
         setTimeout(() => {
           this.img.style.transition = "0.5s";
           this.img.style.transform = "translate(0px)"
+          this.arrowsBlocker.style.display = 'none';
         }, 900)
+      })
+    }
+
+    slideRight(){
+      this.rightArrow.addEventListener('click', () => {
+        this.img.style.transform = "translate(-400px)";
+        this.arrowsBlocker.style.display = 'block';
+        setTimeout(() => {
+          this.changeRight();
+          this.img.style.transition = "0s";
+          this.img.style.transform = "translate(400px)";
+        }, 500)
+        setTimeout(() => {
+          this.img.style.transition = "0.5s";
+          this.img.style.transform = "translate(0px)"
+          this.arrowsBlocker.style.display = 'none';
+        }, 900)
+      })
+    }
+
+    generateSpans(pointClass){
+      this.slidesNames.map((item) => {
+        const point = document.createElement('span');
+        point.className = pointClass;
+        this.spansPlace.appendChild(point);
+      })
+    }
+
+    activateSpans(pointsSelector){
+      const points = document.querySelectorAll(`.${pointsSelector}`);
+      points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor;
+      points.forEach((item, index) => {
+        item.addEventListener('click', () => {
+          this.counter = index;
+          this.setImage();
+          for(let point of points){
+            point.style.background = 'none';
+          }
+          item.style.background = window.getComputedStyle(item).borderColor;
+        })
+      })
+
+      this.leftArrow.addEventListener('click', () => {
+        for(let point of points){
+          point.style.background = 'none';
+        }
+        setTimeout(() => points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor, 900)
+      })
+
+      this.rightArrow.addEventListener('click', () => {
+        for(let point of points){
+          point.style.background = 'none';
+        }
+        setTimeout(() => points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor, 900)
       })
     }
 }
 
-const flagsSlider = new Slider(slides, "assets/IMG/flags/", "jpg", ".slider__flag", ".arrows__left", '.arrows__right');
+const flagsSlider = new Slider(slides, "assets/IMG/flags/", "jpg", ".slider__flag", ".arrows__left", '.arrows__right', '.slider-points', '.arrows__blocker');
 
 flagsSlider.setImage();
 flagsSlider.slideLeft();
 flagsSlider.slideRight();
-// flagsSlider.changeLeft();
-// flagsSlider.changeRight();
+flagsSlider.generateSpans('slider-points__point');
+flagsSlider.activateSpans('slider-points__point');
