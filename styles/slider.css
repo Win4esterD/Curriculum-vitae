@@ -47,9 +47,9 @@
 .arrows__blocker{
   display: none;
   position: absolute;
-  width: 164px;
-  height: 66px;
-  margin-left: -1em;
+  width: 402px;
+  height: 135px;
+  margin-left: -6.3em;
   margin-top: -1em;
 }
 
@@ -82,5 +82,10 @@
 
   .slider-points{
     width: 300px;
+  }
+
+  .arrows__blocker{
+    width: 300px;
+    margin-left: -3.2em;
   }
 }
