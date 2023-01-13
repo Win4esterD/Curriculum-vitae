@@ -108,6 +108,31 @@ class Slider{
         setTimeout(() => points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor, 900)
       })
     }
+
+    showName(countryNameSelector, poinsSelector){
+      const country = document.querySelector(countryNameSelector, poinsSelector);
+      country.innerHTML = `${this.slidesNames[this.counter]}`;
+
+      this.leftArrow.addEventListener('click', () => {
+        setTimeout(() => {
+          country.innerHTML = `${this.slidesNames[this.counter]}`;
+        }, 900)
+      });
+
+      this.rightArrow.addEventListener('click', () => {
+        setTimeout(() => {
+          country.innerHTML = `${this.slidesNames[this.counter]}`;
+        }, 900)
+      })
+
+      const spans = document.querySelectorAll(poinsSelector);
+
+      spans.forEach((item, index) => {
+        item.addEventListener('click', () => {
+          country.innerHTML = `${this.slidesNames[index]}`;
+        })
+      })
+    }
 }
 
 const flagsSlider = new Slider(slides, "assets/IMG/flags/", "jpg", ".slider__flag", ".arrows__left", '.arrows__right', '.slider-points', '.arrows__blocker');
@@ -117,3 +142,4 @@ flagsSlider.slideLeft();
 flagsSlider.slideRight();
 flagsSlider.generateSpans('slider-points__point');
 flagsSlider.activateSpans('slider-points__point');
+flagsSlider.showName('.country-name', '.slider-points__point')
