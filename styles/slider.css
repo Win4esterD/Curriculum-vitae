@@ -68,3 +68,18 @@
   border: 1px solid #0688f3;
   border-radius: 10px;
 }
+
+@media (max-width: 418px){
+
+  .slidder__window{
+    width: 300px;
+  }
+
+  .slider__flag{
+    width: 300px;
+  }
+
+  .slider-points{
+    width: 300px;
+  }
+}
