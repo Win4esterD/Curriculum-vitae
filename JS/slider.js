@@ -98,14 +98,14 @@ class Slider{
         for(let point of points){
           point.style.background = 'none';
         }
-        setTimeout(() => points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor, 900)
+        setTimeout(() => points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor, 500);
       })
 
       this.rightArrow.addEventListener('click', () => {
         for(let point of points){
           point.style.background = 'none';
         }
-        setTimeout(() => points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor, 900)
+        setTimeout(() => points[this.counter].style.background = window.getComputedStyle(points[this.counter]).borderColor, 500);
       })
     }
 
