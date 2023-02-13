@@ -1,4 +1,4 @@
-[
+const courses = [
   {
     "id": 1,
     "name": "Business English Course",

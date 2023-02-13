@@ -1,5 +1,5 @@
-import projects from '../JSON/projects.json' assert {type: 'json'};
-import courses from '../JSON/courses.json' assert {type: 'json'};
+// import * as projects from '../JSON/projects.json' assert {type: 'json'};
+// import courses from '../JSON/courses.json' assert {type: 'json'};
 
 function generateProjectRow(num){
     const name = projects[num].name;
