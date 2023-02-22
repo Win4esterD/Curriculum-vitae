@@ -1,4 +1,4 @@
-[
+const flags = [
   "Argentina",
   "Beliz",
   "Bolivia",

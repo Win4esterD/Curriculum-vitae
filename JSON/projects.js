@@ -32,7 +32,7 @@ const projects =  [
       "id": 5,
       "name": "Travel LP",
       "link": "https://github.com/Win4esterD/travel",
-      "technologies": "HTML, CSS, Javascript",
+      "technologies": "HTML, CSS, JavaScript",
       "publishment": "https://travel-ten-rust.vercel.app/"
     },
     {
@@ -46,21 +46,28 @@ const projects =  [
       "id": 7,
       "name": "Online Zoo",
       "link": "https://github.com/Win4esterD/online-zoo",
-      "technologies": "HTML, CSS, Javascript",
+      "technologies": "HTML, CSS, JavaScript",
       "publishment": "https://online-zoo-hvy8-d8a4t2c4l-win4esterd.vercel.app/"
     },
     {
       "id": 8,
       "name": "Quince game",
       "link": "https://github.com/Win4esterD/gem-puzzle",
-      "technologies": "CSS, Javascript",
+      "technologies": "CSS, JavaScript",
       "publishment": "https://gem-puzzle-sepia.vercel.app/index.html"
     },
     {
       "id": 9,
       "name": "SongBird",
       "link": "https://github.com/Win4esterD/SongBird/",
-      "technologies": "HTML, CSS, Javascript",
+      "technologies": "HTML, CSS, JavaScript",
       "publishment": "https://song-bird-win4esterd.vercel.app/"
+    },
+    {
+      "id": 10,
+      "name": "EA test task",
+      "link": "https://github.com/Win4esterD/Test-Front-end-EA/tree/develop",
+      "technologies": "React, SaSS, Webpack, JavaScript",
+      "publishment": "https://test-front-end-ea.vercel.app/"
     }
 ]

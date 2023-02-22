@@ -1,4 +1,4 @@
-import slides from '../JSON/flags.json' assert {type: 'json'};
+slides = flags;
 
 class Slider{
     constructor(slidesNames, slidesRoute, format, slideIMGSelector, leftArrow, rightArrow, spansPlace, arrowsBlocker){
