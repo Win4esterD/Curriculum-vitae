@@ -146,7 +146,7 @@ const courses = [
   {
     "id": 19,
     "name": "PHP/MySQL",
-    "provider": "https://fructcode.com/",
+    "provider": "FructCode",
     "link": "https://fructcode.com/ru/courses/php-and-mysql/",
     "year": "2023",
     "certificate": "https://fructcode.com/ru/certificates/42142ef3f176b62a29cbb613e36fd001/en/"
