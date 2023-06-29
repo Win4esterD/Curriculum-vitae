@@ -25,12 +25,10 @@ activate(){
   });
 
   this.main.addEventListener('click', () => {
-    if(window.innerWidth <=660){
-      this.header.style.height = `${this.minHeight}`;
-      this.navigation.style.opacity = '0';
-      this.navigation.style.display = 'none';
-      setTimeout(() => this.navigation.style.display = 'none', 500)
-    }
+    this.header.style.height = `${this.minHeight}`;
+    this.navigation.style.opacity = '0';
+    this.navigation.style.display = 'none';
+    setTimeout(() => this.navigation.style.display = 'none', 500)
   })
 }
 }
