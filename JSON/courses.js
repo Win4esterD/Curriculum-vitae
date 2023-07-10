@@ -159,4 +159,12 @@ const courses = [
     "year": "2023",
     "certificate": "No"
   },
+  {
+    "id": 21,
+    "name": "IT English",
+    "provider": "TestProvider",
+    "link": "https://testprovider.com/",
+    "year": "2023",
+    "certificate": "https://testprovider.com/ru/search-certificate/TP62705705"
+  }
 ]
