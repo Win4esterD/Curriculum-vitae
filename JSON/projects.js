@@ -82,6 +82,6 @@ const projects = [
     name: "Library",
     link: "https://github.com/Win4esterD/Library",
     technologies: "React, SaSS, Webpack, JavaScript, Git",
-    publishment: "https://divination-two.vercel.app/",
+    publishment: "https://library-lake-xi.vercel.app/",
   },
 ];
