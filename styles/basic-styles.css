@@ -4,6 +4,10 @@
   font-family: var(--main-font-family);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a{
   color: #0366d6;
   text-decoration: none;

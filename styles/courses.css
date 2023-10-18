@@ -5,6 +5,7 @@
 
 .courses__table{
   width: var(--main-width);
+  padding-bottom: 3rem;
 }
 
 .courses__thead{

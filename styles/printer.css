@@ -1,6 +1,7 @@
 @media print{
   .courses{
     margin-top: 20vh;
+    padding-bottom: 0rem;
   }
 
   .header{
@@ -9,7 +10,7 @@
   }
 
   .projects{
-    margin-top: 3vh;
+    margin-top: 2vh;
   }
 
   .proficiency__ul{
