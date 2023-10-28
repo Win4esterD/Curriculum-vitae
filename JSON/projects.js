@@ -60,7 +60,7 @@ const projects = [
     id: 9,
     name: "Tarot Divination",
     link: "https://github.com/Win4esterD/Divination",
-    technologies: "React, SaSS, Webpack, JavaScript, Git",
+    technologies: "Next.js, React, SaSS, Webpack, JavaScript, Git",
     publishment: "https://divination-two.vercel.app/",
   },
   {
