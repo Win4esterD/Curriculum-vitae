@@ -32,7 +32,7 @@ const courses = [
     provider: "Anton Kholin",
     link: "https://stepik.org/course/2223/syllabus",
     year: "2021",
-    certificate: "https://stepik.org/cert/1305102",
+    certificate: "https://stepik.org/cert/1305102?lang=en",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const courses = [
     provider: "Stepic",
     link: "https://stepik.org/course/575/syllabus",
     year: "2021",
-    certificate: "https://stepik.org/cert/1297087",
+    certificate: "https://stepik.org/cert/1297087?lang=en",
   },
   {
     id: 7,
@@ -56,7 +56,7 @@ const courses = [
     provider: "ITC-digital",
     link: "https://stepik.org/course/38218/syllabus",
     year: "2021",
-    certificate: "https://stepik.org/cert/1259305",
+    certificate: "https://stepik.org/cert/1259305?lang=en",
   },
   {
     id: 8,
@@ -68,11 +68,11 @@ const courses = [
   },
   {
     id: 9,
-    name: "Python for Beginners",
+    name: "Indie Python Programming Course",
     provider: "Egoroff_channel",
     link: "https://stepik.org/course/63085/syllabus",
     year: "2021",
-    certificate: "https://stepik.org/cert/1009794",
+    certificate: "https://stepik.org/cert/1009794?lang=en",
   },
   {
     id: 10,
@@ -80,7 +80,7 @@ const courses = [
     provider: "BEEGEEK School",
     link: "https://stepik.org/course/58852/syllabus",
     year: "2021",
-    certificate: "https://stepik.org/cert/933728",
+    certificate: "https://stepik.org/cert/933728?lang=en",
   },
   {
     id: 11,
@@ -88,7 +88,7 @@ const courses = [
     provider: "Russian Programming School",
     link: "https://stepik.org/course/101687/syllabus",
     year: "2022",
-    certificate: "https://stepik.org/cert/1362793",
+    certificate: "https://stepik.org/cert/1362793?lang=en",
   },
   {
     id: 12,
@@ -96,7 +96,7 @@ const courses = [
     provider: "Bioinformatics Institute",
     link: "https://stepik.org/course/73/syllabus",
     year: "2022",
-    certificate: "https://stepik.org/cert/1352699",
+    certificate: "https://stepik.org/cert/1352699?lang=en",
   },
   {
     id: 13,
@@ -113,7 +113,7 @@ const courses = [
     provider: "Far East Federal University",
     link: "https://stepik.org/course/63054/syllabus",
     year: "2022",
-    certificate: "https://stepik.org/cert/1387270",
+    certificate: "https://stepik.org/cert/1387270/?lang=en",
   },
   {
     id: 15,
