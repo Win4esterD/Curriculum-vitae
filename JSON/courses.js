@@ -181,6 +181,6 @@ const courses = [
     provider: "RS-School",
     link: "https://rs.school/js-stage0/",
     year: "2023",
-    certificate: "https://app.rs.school/certificate/emv3ipmy",
+    certificate: "https://app.rs.school/certificate/v67f9881",
   },
 ];
