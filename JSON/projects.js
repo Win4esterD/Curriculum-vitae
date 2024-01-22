@@ -77,4 +77,11 @@ const projects = [
     technologies: "React, JavaScript, CSS, Git",
     publishment: "https://task-manager-2p7rlv5wp-win4esterd.vercel.app/",
   },
+  {
+    id: 12,
+    name: "Nasa, picture of the day",
+    link: "https://github.com/Win4esterD/NASA",
+    technologies: "React, Next.js, Material UI, Git",
+    publishment: "https://nasa-ten-xi.vercel.app/",
+  },
 ];
