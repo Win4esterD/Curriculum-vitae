@@ -81,7 +81,7 @@ const projects = [
     id: 12,
     name: "Nasa, picture of the day",
     link: "https://github.com/Win4esterD/NASA",
-    technologies: "React, Next.js, Material UI, Git",
+    technologies: "React, Next.js, TypeScript, Material UI, Git",
     publishment: "https://nasa-ten-xi.vercel.app/",
   },
 ];
