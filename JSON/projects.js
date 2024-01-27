@@ -9,10 +9,10 @@ const projects = [
   },
   {
     id: 2,
-    name: "Travel LP",
-    link: "https://github.com/Win4esterD/travel",
+    name: "Image Searcher",
+    link: "https://github.com/Win4esterD/Image-Searcher",
     technologies: "HTML, CSS, JavaScript, Git",
-    publishment: "https://travel-ten-rust.vercel.app/",
+    publishment: "https://image-searcher-roan.vercel.app/",
   },
   {
     id: 3,
@@ -23,10 +23,10 @@ const projects = [
   },
   {
     id: 4,
-    name: "Online Zoo",
-    link: "https://github.com/Win4esterD/online-zoo",
+    name: "Audio Player",
+    link: "https://github.com/Win4esterD/Aydio-Player",
     technologies: "HTML, CSS, JavaScript, Git",
-    publishment: "https://online-zoo-hvy8-d8a4t2c4l-win4esterd.vercel.app/",
+    publishment: "https://aydio-player.vercel.app/",
   },
   {
     id: 5,
