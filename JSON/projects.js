@@ -24,7 +24,7 @@ const projects = [
   {
     id: 4,
     name: "Audio Player",
-    link: "https://github.com/Win4esterD/Aydio-Player",
+    link: "https://github.com/Win4esterD/Audio-Player",
     technologies: "HTML, CSS, JavaScript, Git",
     publishment: "https://aydio-player.vercel.app/",
   },
