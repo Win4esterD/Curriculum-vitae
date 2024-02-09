@@ -1,7 +1,15 @@
 @media print{
   .courses{
-    margin-top: 20vh;
+    margin-top: 0vh;
     padding-bottom: 0rem;
+  }
+
+  .courses__th {
+    font-size: 14px;
+  }
+
+  .courses__td {
+    font-size: 14px;
   }
 
   .header{
@@ -9,8 +17,8 @@
     position: static;
   }
 
-  .projects{
-    margin-top: 2vh;
+  .education {
+    margin-top: 10rem;
   }
 
   .proficiency__ul{
