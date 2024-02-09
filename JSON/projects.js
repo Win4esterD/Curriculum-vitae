@@ -81,7 +81,14 @@ const projects = [
     id: 12,
     name: "Nasa, picture of the day",
     link: "https://github.com/Win4esterD/NASA",
-    technologies: "React, Next.js, TypeScript, Material UI, Git",
+    technologies: "Next.js, React, TypeScript, Material UI, Git, Fetch API",
     publishment: "https://nasa-ten-xi.vercel.app/",
+  },
+  {
+    id: 13,
+    name: "Image Gallery",
+    link: "https://github.com/Win4esterD/picture-gallery",
+    technologies: "Next.js, React, TypeScript, Material UI, Git, Fetch API",
+    publishment: "https://picture-gallery-iota.vercel.app/",
   },
 ];
