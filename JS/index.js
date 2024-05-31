@@ -39,7 +39,7 @@ function generateProjectRow(num){
 
 
 function fillProjectTable(){
-  projects.reverse().map((item, index) => generateProjectRow(index));
+  projects.reverse().forEach((_, index) => generateProjectRow(index));
 }
 
 function generateCourseRow(num){
