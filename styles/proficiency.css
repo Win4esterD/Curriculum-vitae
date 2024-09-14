@@ -8,7 +8,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 10vh;
+  height: 10rem;
 }
 
 .proficiency__li{
@@ -17,12 +17,13 @@
 
 @media (max-width: 700px){
   .proficiency__ul{
-    height: 15vh;
+    /* height: 17rem; */
   }
+
 }
 
 @media(max-width: 430px){
-  .proficiency__ul{
-    height: 19vh;
-  }
+  /* .proficiency__ul{
+    height: 20rem;
+  } */
 }
