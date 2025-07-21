@@ -26,20 +26,20 @@
 
 .navLi {
   transition: 0.5s;
-}
 
-.nav__li:hover {
-  transform: scale(1.1);
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .navLink {
   color: white;
   text-decoration: none;
   font-size: 1.2em;
-}
 
-.navLink:hover {
-  color: orange;
+  &:hover {
+    color: orange;
+  }
 }
 
 @include width-1100px {
@@ -67,6 +67,11 @@
     height: 40px;
     transition: 1s;
     opacity: 0;
+  }
+
+  .navUlShown {
+    display: flex !important;
+    opacity: 1 !important;
   }
 
   .burgerMenu {

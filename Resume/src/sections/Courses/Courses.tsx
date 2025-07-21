@@ -19,7 +19,7 @@ export function Courses() {
           </thead>
           <tbody className="courses__tbody">
             {courses.reverse().map((course) => (
-              <tr className={styles.coursesTR}>
+              <tr className={styles.coursesTR} key={course.id}>
                 <td className={styles.coursesTD}>{course.name}</td>
                 <td className={styles.coursesTD}>{course.provider}</td>
                 <td className={styles.coursesTD}>

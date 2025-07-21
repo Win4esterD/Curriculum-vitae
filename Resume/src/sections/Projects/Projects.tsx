@@ -18,7 +18,7 @@ export function Projects() {
           </thead>
           <tbody className="projects__tbody">
             {projects.reverse().map((project) => (
-              <tr className={styles.projectsTR}>
+              <tr className={styles.projectsTR} key={project.id}>
                 <td className={styles.projectsTD}>{project.name}</td>
                 <td className={styles.projectsTD}>
                   <a href={project.link}>link</a>
