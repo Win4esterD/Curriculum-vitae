@@ -1,0 +1,16 @@
+.proficiencyWrapper{
+  margin-left: var(--main-margin-left);
+  width: var(--main-width);
+}
+
+.proficiency_Ul{
+  list-style: inside;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 10rem;
+}
+
+.proficiencyLi{
+  padding: 0 0 0 0;
+}

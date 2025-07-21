@@ -1,0 +1,77 @@
+@import '/src/mixins/resolutions/600px.scss';
+
+.introduction {
+  margin: 1em 0 0 var(--main-margin-left);
+}
+
+.introductionName {
+  font-size: 2.5em;
+}
+
+hr {
+  width: var(--main-width);
+  height: 0.25em;
+  background: #e1e4e8;
+  border: 0;
+}
+
+.introductionProfession {
+  font-size: 2em;
+}
+
+.contactInfo {
+  display: flex;
+  margin-left: var(--main-margin-left);
+  gap: 2vw;
+}
+
+.contactInformation {
+  margin-top: 1em;
+}
+
+.contactInfoText {
+  font-size: 1.1em;
+  padding: 0.5em 0em 0.5em 0em;
+}
+
+@include width-600px {
+  .contactInformation {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 482px) {
+  .foto {
+    width: 190px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 460px) {
+  .foto {
+    width: 170px;
+    height: 200px;
+  }
+
+  .contactInformation {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 400px) {
+  .foto {
+    width: 150px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 389px) {
+  .foto {
+    width: 120px;
+    height: 150px;
+  }
+
+  .contactInformation {
+    font-size: 0.7em;
+  }
+}
