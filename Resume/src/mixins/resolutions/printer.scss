@@ -1,0 +1,5 @@
+@mixin printer {
+  @media print {
+    @content;
+  }
+}

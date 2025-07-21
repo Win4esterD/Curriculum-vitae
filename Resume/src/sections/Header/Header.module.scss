@@ -1,5 +1,6 @@
 @import '/src/mixins/resolutions/1100px.scss';
 @import '/src/mixins/resolutions/600px.scss';
+@import '/src/mixins/resolutions/printer.scss';
 
 .header {
   display: block;
@@ -79,5 +80,11 @@
     position: absolute;
     right: 5vw;
     top: 1px;
+  }
+}
+
+@include printer {
+  .header {
+    display: none;
   }
 }
