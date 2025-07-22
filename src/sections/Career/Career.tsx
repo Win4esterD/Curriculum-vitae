@@ -7,6 +7,22 @@ export function Career() {
     <section className={styles.careerWrapper}>
       <h2 className="jobs__title">Job Positions:</h2>
       <OwnerPanelJobPosition />
+      <br />
+      <hr />
+      <OtherJobPosition
+        positionName={'Frontend developer'}
+        company={'Solvd'}
+        companySiteLink={'https://laba.solvd.com/'}
+        city="Minsk"
+        workingPeriod="June 2023 - May 2024"
+        responsibilities={[
+          'Completed internship period and passed final exams',
+          'Developed application for tasks planning',
+          "Developed UI of online shop for company's client",
+        ]}
+      />
+      <br />
+      <hr />
       <OtherJobPosition
         positionName={'Python Developer Trainee'}
         company={'iTechArt Group'}
@@ -18,6 +34,8 @@ export function Career() {
           'API testing using PyTest library',
         ]}
       />
+      <br />
+      <hr />
       <OtherJobPosition
         positionName={'Marketing Specialist'}
         company={'ODO Jupiter'}
@@ -31,6 +49,8 @@ export function Career() {
           'Contacts with the clients and suppliers',
         ]}
       />
+      <br />
+      <hr />
       <OtherJobPosition
         positionName={'Extruder Maschinist'}
         company={'OOO Design'}
@@ -39,6 +59,8 @@ export function Career() {
         workingPeriod="January 2011 - December 2018"
         responsibilities={['Production']}
       />
+      <br />
+      <hr />
       <OtherJobPosition
         positionName={'CNC Machine Operator'}
         company={'OAO BATE'}
