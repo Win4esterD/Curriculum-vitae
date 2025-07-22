@@ -1,0 +1,42 @@
+.educationWrapper{
+  margin-left: var(--main-margin-left);
+  width: var(--main-width);
+}
+
+.educationTable{
+  width: var(--main-width);
+}
+
+.educationTHead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.educationTH{
+  text-align: center;
+  padding: 0.4em 0.8em;
+  border: 1px solid #dfe2e5;
+}
+
+.educationTD{
+  border: 1px solid #dfe2e5;
+  text-align: center;
+  padding: 0.2em 0em;
+}
+
+.educationTR:nth-child(even){
+  background: var(--even-cell-background);
+}
+
+@media (max-width: 414px){
+  .educationTable{
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 443px){
+  .educationTable{
+    font-size: 0.8em;
+  }
+}

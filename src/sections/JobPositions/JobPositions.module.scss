@@ -1,0 +1,36 @@
+.jobsWrapper{
+  margin-left: var(--main-margin-left);
+  width: var(--main-width);
+}
+
+.jobsTable{
+  width: var(--main-width);
+}
+
+.jobsTHead{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.jobsTH{
+  text-align: center;
+  padding: 0.4em 0.8em;
+  border: 1px solid #dfe2e5;
+}
+
+.jobsTD{
+  border: 1px solid #dfe2e5;
+  text-align: center;
+  padding: 0.2em 0em;
+}
+
+.jobsTR:nth-child(even){
+  background: var(--even-cell-background);
+}
+
+@media (max-width: 367px){
+  .jobsTable{
+    font-size: 0.9em;
+  }
+}

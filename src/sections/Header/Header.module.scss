@@ -1,0 +1,90 @@
+@use '/src/mixins/resolutions/1100px.scss' as *;
+@use '/src/mixins/resolutions/600px.scss' as *;
+@use '/src/mixins/resolutions/printer.scss' as *;
+
+.header {
+  display: block;
+  justify-content: center;
+  height: 2.5em;
+  background-color: black;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+.nav {
+  margin-left: var(--main-margin-left);
+}
+
+.navUl {
+  display: flex;
+  justify-content: space-between;
+  width: var(--main-width);
+  padding-top: 0.5em;
+  list-style: none;
+}
+
+.navLi {
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+
+  &:hover {
+    color: orange;
+  }
+}
+
+@include width-1100px {
+  .navLink {
+    font-size: 1em;
+  }
+}
+
+@include width-600px {
+  .header {
+    height: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .navUl {
+    font-size: 0.8em;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    flex-wrap: wrap;
+    height: 40px;
+    transition: 1s;
+    opacity: 0;
+  }
+
+  .navUlShown {
+    display: flex !important;
+    opacity: 1 !important;
+  }
+
+  .burgerMenu {
+    display: block;
+    position: absolute;
+    right: 5vw;
+    top: 1px;
+  }
+}
+
+@include printer {
+  .header {
+    display: none;
+  }
+}
