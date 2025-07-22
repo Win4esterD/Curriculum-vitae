@@ -5,7 +5,7 @@ export function Projects() {
   return (
     <section className="projects" id="projects">
       <div className={styles.projectsWrapper}>
-        <h2 className="projects__title">My projects:</h2>
+        <h2 className="projects__title">My pet projects:</h2>
         <br />
         <table className={styles.projectsTable}>
           <thead className={styles.projectsTHead}>

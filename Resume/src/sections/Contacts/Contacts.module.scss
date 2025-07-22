@@ -1,4 +1,5 @@
 @use '/src/mixins/resolutions/600px.scss' as *;
+@use '/src/mixins/resolutions/printer.scss' as *;
 
 .introduction {
   margin: 1em 0 0 var(--main-margin-left);
@@ -32,6 +33,13 @@ hr {
 .contactInfoText {
   font-size: 1.1em;
   padding: 0.5em 0em 0.5em 0em;
+}
+
+@include printer {
+  .foto {
+    width: 180px;
+    height: 200px;
+  }
 }
 
 @include width-600px {
