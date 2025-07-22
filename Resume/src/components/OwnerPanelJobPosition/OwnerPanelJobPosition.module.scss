@@ -1,0 +1,57 @@
+.jobWrapper {
+  margin-top: 1.5rem;
+}
+
+.aboutProject {
+  margin-top: 1.5rem;
+}
+
+.doneOnAdminPanelTitle {
+  margin-top: 1rem;
+}
+
+.serviceDescription {
+  margin-top: 0.8rem;
+}
+
+.adminPanelAchievementList {
+  margin-top: 1rem;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.innerList {
+  list-style: inside;
+  list-style-position: inside;
+  padding-left: 1rem;
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.doneOnHotelSiteTitle {
+  margin-top: 2rem;
+}
+
+.hotelSiteAchievementList {
+  margin-top: 1rem;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.doneOnLandingPageTitle {
+  margin-top: 2rem;
+}
+
+.landingAchievements {
+  margin-top: 1.5rem;
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

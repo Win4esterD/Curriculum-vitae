@@ -1,6 +1,6 @@
-@import '/src/mixins/resolutions/1100px.scss';
-@import '/src/mixins/resolutions/600px.scss';
-@import '/src/mixins/resolutions/printer.scss';
+@use '/src/mixins/resolutions/1100px.scss' as *;
+@use '/src/mixins/resolutions/600px.scss' as *;
+@use '/src/mixins/resolutions/printer.scss' as *;
 
 .header {
   display: block;

@@ -1,4 +1,4 @@
-@import '/src/mixins/resolutions/600px.scss';
+@use '/src/mixins/resolutions/600px.scss' as *;
 
 .introduction {
   margin: 1em 0 0 var(--main-margin-left);
