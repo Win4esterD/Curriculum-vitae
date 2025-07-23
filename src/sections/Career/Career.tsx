@@ -14,7 +14,7 @@ export function Career() {
         company={'Solvd'}
         companySiteLink={'https://laba.solvd.com/'}
         city="Minsk"
-        workingPeriod="June 2023 - May 2024"
+        workingPeriod="June 2023 - December 2023"
         responsibilities={[
           'Completed internship period and passed final exams',
           'Developed application for tasks planning',

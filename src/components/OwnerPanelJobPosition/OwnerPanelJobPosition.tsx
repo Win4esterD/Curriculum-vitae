@@ -7,7 +7,7 @@ export function OwnerPanelJobPosition() {
       <p>
         <b>Company: </b>
         <a href="https://www.linkedin.com/company/owner-panel/posts/?feedView=all">Owner Panel</a> |
-        Warsaw | May 2024 - Working now
+        Warsaw | January 2024 - Working now
       </p>
       <p>
         <b>Stack: </b>Next.js, React, React Router, Mantine, Redux, Redux Toolkit, Axios, Zustand,
