@@ -20,7 +20,7 @@ export function Skills() {
           <li className={styles.proficiencyLi}>Dayjs</li>
           <li className={styles.proficiencyLi}>Mantine</li>
           <li className={styles.proficiencyLi}>Material UI</li>
-          <li className={styles.proficiencyLi}>English (B2)</li>
+          <li className={styles.proficiencyLi}>English (C1)</li>
           <li className={styles.proficiencyLi}>Spanish (B2)</li>
           <li className={styles.proficiencyLi}>Russian (Native)</li>
         </ul>
