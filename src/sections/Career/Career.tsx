@@ -16,9 +16,13 @@ export function Career() {
         city="Minsk"
         workingPeriod="June 2023 - December 2023"
         responsibilities={[
-          'Completed internship period and passed final exams',
-          'Developed application for tasks planning',
-          "Developed UI of online shop for company's client",
+          'Developed application for tasks planning during probation period, to show my capabilities as Frontend developer',
+          'Completed probation period and passed final exam to get access to comercial projects',
+          `Played key role in development of the comercial project "Shoe marketplace"`,
+          `Developed UI of the main page of the marketplace`,
+          `Implemented client page, where a user can edit his data, products etc.`,
+          `Developed products page, implemented filters by: trademark, shoe size, color, quantity etc.`,
+          `Implemented adaptive design for all pages, fixed bugs in adaptive design`,
         ]}
       />
       <br />
