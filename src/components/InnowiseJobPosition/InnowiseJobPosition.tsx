@@ -32,9 +32,9 @@ export function InnowiseJobPosition() {
         </li>
         <li>
           Suggested implementation of <b>Spec Driven testing</b> and succesfully implemented it in
-          team's workflow. It reduced time for automatic tests implementation by 70%, because AI (
-          <b>Claude Sonnet</b>) proved to be very userfull for tests development, providing code of
-          high quality and covering all necessary test cases.
+          team's workflow. It reduced time for automatic tests implementation by <b>70%</b>, because
+          AI (<b>Claude Sonnet</b>) proved to be very userful for tests development, providing code
+          of high quality and covering all necessary test cases.
         </li>
         <li>
           Created Guaranteed impressions campaign form. A form that had to create marketing campaign
@@ -55,9 +55,9 @@ export function InnowiseJobPosition() {
           <b>Storybook, React testing library and Cypress</b>
         </li>
         <li>
-          After earlier suggested Spec Driven testing proved userfull, reduced tech debt of the team
-          by 70%, by covering all critical functionality by tests, using Spec Driven Development (AI
-          driven testing)
+          After earlier suggested <b>Spec Driven testing</b> proved userful, reduced tech debt of
+          the team by <b>70%</b>, by covering all critical functionality by tests, using Spec Driven
+          Development (AI driven testing)
         </li>
       </ol>
     </div>
