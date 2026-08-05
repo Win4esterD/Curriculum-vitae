@@ -1,18 +1,20 @@
 import styles from './Career.module.scss';
 import { OwnerPanelJobPosition } from '../../components/OwnerPanelJobPosition/OwnerPanelJobPosition';
 import { OtherJobPosition } from '../../components/OtherJobPosition/OtherJobPosition';
+import { InnowiseJobPosition } from '../../components/InnowiseJobPosition/InnowiseJobPosition';
 
 export function Career() {
   return (
     <section className={styles.careerWrapper}>
       <h2 className="jobs__title">Job Positions:</h2>
+      <InnowiseJobPosition />
       <OwnerPanelJobPosition />
       <br />
       <hr />
       <OtherJobPosition
         positionName={'Frontend developer'}
         company={'Solvd'}
-        companySiteLink={'https://laba.solvd.com/'}
+        companySiteLink={'https:/solvd.com/'}
         city="Minsk"
         workingPeriod="June 2023 - December 2023"
         responsibilities={[

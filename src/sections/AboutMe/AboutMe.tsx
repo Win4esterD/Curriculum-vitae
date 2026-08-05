@@ -16,7 +16,7 @@ export function AboutMe() {
           <span>
             <b>City:</b>{' '}
           </span>
-          <span> Borisov</span>
+          <span> Minsk</span>
         </p>
         <p className={styles.aboutText}>
           <span>

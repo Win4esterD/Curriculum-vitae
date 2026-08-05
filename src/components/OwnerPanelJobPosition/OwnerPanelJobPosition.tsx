@@ -7,10 +7,10 @@ export function OwnerPanelJobPosition() {
       <p>
         <b>Company: </b>
         <a href="https://www.linkedin.com/company/owner-panel/posts/?feedView=all">Owner Panel</a> |
-        Warsaw | January 2024 - Working now
+        Warsaw | January 2024 - August 2025
       </p>
       <p>
-        <b>Stack: </b>Next.js, React, React Router, Mantine, Redux, Redux Toolkit, Axios, Zustand,
+        <b>Stack: </b>Next.js, React, React Router, TypeScript, Mantine, Redux, Redux Toolkit, Axios, Zustand,
         dayjs, i18n, SaSS, Google Recaptcha
       </p>
       <h4 className={styles.aboutProject}>About Project:</h4>
