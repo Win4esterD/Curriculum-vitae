@@ -6,8 +6,9 @@ type OtherJobPositionProps = {
   companySiteLink?: string;
   city: string;
   workingPeriod: string;
+  jobDescription?: string;
   responsibilities: string[];
-}
+};
 
 export function OtherJobPosition({
   positionName,
@@ -15,7 +16,8 @@ export function OtherJobPosition({
   companySiteLink,
   city,
   workingPeriod,
-  responsibilities
+  jobDescription,
+  responsibilities,
 }: OtherJobPositionProps) {
   return (
     <div className={styles.jobWrapper}>
@@ -24,9 +26,12 @@ export function OtherJobPosition({
         <b>Company: </b>
         <a href={companySiteLink}>{company}</a> | {city} | {workingPeriod}
       </p>
+      {jobDescription && <p className={styles.jobDescription}>{jobDescription}</p>}
       <h4 className={styles.keyResponsibilitiesTitle}>Key responsibilities:</h4>
-      <ol className={styles.jupiterResponsibilities}>
-        {responsibilities.map((responsibility) => <li>{responsibility}</li>)}
+      <ol className={styles.responsibilities}>
+        {responsibilities.map((responsibility, i) => (
+          <li key={i}>{responsibility}</li>
+        ))}
       </ol>
     </div>
   );

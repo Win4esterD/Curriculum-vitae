@@ -34,6 +34,7 @@ export function AboutMe() {
             problem-solving, critical thinking, interpersonal communication, self-learning, time
             management, emotional intelligence.
           </b>
+          Also I'm learning backend development, to become Full Stack Developer (React + Node).
         </p>
       </div>
       <div className={styles.dividers}>

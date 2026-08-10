@@ -11,7 +11,7 @@ export function OwnerPanelJobPosition() {
       </p>
       <p>
         <b>Stack: </b>Next.js, React, React Router, TypeScript, Mantine, Redux, Redux Toolkit,
-        Axios, Zustand, dayjs, i18n, SaSS, Google Recaptcha
+        Axios, Zustand, dayjs, i18n, Sass, Google Recaptcha
       </p>
       <h4 className={styles.aboutProject}>About Project:</h4>
       <p className={styles.serviceDescription}>

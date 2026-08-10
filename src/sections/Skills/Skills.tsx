@@ -5,31 +5,26 @@ export function Skills() {
     <section className="proficiency" id="proficiency">
       <div className={styles.proficiencyWrapper}>
         <h2 className="proficiency__title">Skills and Proficiency:</h2>
-        <br />
-        <ul className={styles.proficiency_Ul}>
-          <li className={styles.proficiencyLi}>React</li>
-          <li className={styles.proficiencyLi}>Next.js</li>
-          <li className={styles.proficiencyLi}>Redux</li>
-          <li className={styles.proficiencyLi}>Zustand</li>
-          <li className={styles.proficiencyLi}>HTML/CSS</li>
-          <li className={styles.proficiencyLi}>SaSS</li>
-          <li className={styles.proficiencyLi}>JavaScript</li>
-          <li className={styles.proficiencyLi}>TypeScript</li>
-          <li className={styles.proficiencyLi}>Webpack</li>
-          <li className={styles.proficiencyLi}>Git/GitHub</li>
-          <li className={styles.proficiencyLi}>Dayjs</li>
-          <li className={styles.proficiencyLi}>Mantine</li>
-          <li className={styles.proficiencyLi}>Material UI</li>
-          <li className={styles.proficiencyLi}>React testing library</li>
-          <li className={styles.proficiencyLi}>Cypress</li>
-          <li className={styles.proficiencyLi}>Storybook</li>
-          <li className={styles.proficiencyLi}>Tanstack Query</li>
-          <li className={styles.proficiencyLi}>Spec Driven development</li>
-          <li className={styles.proficiencyLi}>English (C1)</li>
-          <li className={styles.proficiencyLi}>Spanish (B2)</li>
-          <li className={styles.proficiencyLi}>Russian (Native)</li>
-          <li className={styles.proficiencyLi}>AI Tools (Cursor, Claude. etc.)</li>
-        </ul>
+        <br />    
+        <p>
+          <b>Core</b>: JavaScript, TypeScript, React, Next.js, HTML5, CSS3 (Sass)
+        </p>
+        <p>
+          <b>State Management:</b> Redux Toolkit, Zustand, Tanstack Query
+        </p>
+        <p>
+          <b>UI Libraries:</b> Mantine, Material UI
+        </p>
+        <p>
+          <b>Testing:</b> Jest, React Testing Library, Cypress, Storybook
+        </p>
+        <p>
+          <b>Tools & Practices:</b> Webpack, Git, i18n, Spec-Driven Development, AI-assisted coding
+          (Cursor, Claude)
+        </p>
+        <p>
+          <b>Languages:</b> English (C1), Spanish (B2), Russian (Native)
+        </p>
       </div>
     </section>
   );

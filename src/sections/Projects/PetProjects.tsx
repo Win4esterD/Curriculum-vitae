@@ -1,7 +1,7 @@
-import styles from './Projects.module.scss';
+import styles from './PetProjects.module.scss';
 import { projects } from '../../data/projects';
 
-export function Projects() {
+export function PetProjects() {
   return (
     <section className={`projects ${styles.projects}`} id="projects">
       <div className={styles.projectsWrapper}>

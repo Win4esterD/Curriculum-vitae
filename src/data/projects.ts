@@ -45,7 +45,7 @@ export const projects = [
     id: 7,
     name: 'EA test task',
     link: 'https://github.com/Win4esterD/Test-Front-end-EA/tree/develop',
-    technologies: 'React, SaSS, Webpack, JavaScript, Git',
+    technologies: 'React, Sass, Webpack, JavaScript, Git',
     publishment: 'https://test-front-end-ea.vercel.app/',
   },
   {
@@ -59,14 +59,14 @@ export const projects = [
     id: 9,
     name: 'Tarot Divination',
     link: 'https://github.com/Win4esterD/Divination',
-    technologies: 'Next.js, React, SaSS, Webpack, JavaScript, Git',
+    technologies: 'Next.js, React, Sass, Webpack, JavaScript, Git',
     publishment: 'https://divination-two.vercel.app/',
   },
   {
     id: 10,
     name: 'Library',
     link: 'https://github.com/Win4esterD/Library',
-    technologies: 'React, SaSS, JavaScript, Git',
+    technologies: 'React, Sass, JavaScript, Git',
     publishment: 'https://library-lake-xi.vercel.app/',
   },
   {
