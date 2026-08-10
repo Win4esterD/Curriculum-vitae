@@ -18,7 +18,7 @@ export function Education() {
           <tbody className="education__tbody">
             <tr className={styles.educationTR}>
               <td className={styles.educationTD}>
-                <a href="http://bseu.by/">Belorussian State Economics University</a>
+                <a href="http://bseu.by/">Belarusian State Economics University</a>
               </td>
               <td className={styles.educationTD}>2011 - 2017</td>
               <td className={styles.educationTD}>International Economy</td>
