@@ -3,7 +3,7 @@ import { projects } from '../../data/projects';
 
 export function Projects() {
   return (
-    <section className="projects" id="projects">
+    <section className={`projects ${styles.projects}`} id="projects">
       <div className={styles.projectsWrapper}>
         <h2 className="projects__title">My pet projects:</h2>
         <br />
