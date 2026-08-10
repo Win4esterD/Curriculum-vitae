@@ -26,7 +26,7 @@ export function Contacts() {
           </p>
           <p className={styles.contactInfoText}>
             <span>
-              <b>E-mail:</b>{' '}
+              <b>Email:</b>{' '}
             </span>
             <span>
               <a href="mailto:win4ester2016@yandex.ru">win4ester2016@yandex.ru</a>

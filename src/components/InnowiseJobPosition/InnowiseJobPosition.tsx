@@ -9,7 +9,7 @@ export function InnowiseJobPosition() {
         <a href="https://jobs-innowise.com/">Innowise</a> | Minsk | September 2025 - August 2026
       </p>
       <p>
-        <b>Stack: </b>Next.js, React, React Query, TypeScript, Jest, React Testing Library,
+        <b>Stack: </b>Next.js, React, TanStack Query, TypeScript, Jest, React Testing Library,
         Storybook, Cypress, Cursor, Claude Code, Spec Driven development, React hook form
       </p>
       <h4 className={styles.aboutProject}>About Project:</h4>
