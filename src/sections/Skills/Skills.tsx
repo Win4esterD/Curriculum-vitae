@@ -23,7 +23,7 @@ export function Skills() {
           <li className={styles.proficiencyLi}>React testing library</li>
           <li className={styles.proficiencyLi}>Cypress</li>
           <li className={styles.proficiencyLi}>Storybook</li>
-          <li className={styles.proficiencyLi}>React Query</li>
+          <li className={styles.proficiencyLi}>Tanstack Query</li>
           <li className={styles.proficiencyLi}>Spec Driven development</li>
           <li className={styles.proficiencyLi}>English (C1)</li>
           <li className={styles.proficiencyLi}>Spanish (B2)</li>
