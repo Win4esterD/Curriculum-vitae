@@ -1,3 +1,11 @@
+type PetProject = {
+  id: number;
+  name: string;
+  link: string;
+  technologies: string;
+  publishment: string;
+};
+
 export const projects = [
   {
     id: 1,
@@ -90,4 +98,11 @@ export const projects = [
     technologies: 'Next.js, React, TypeScript, Material UI, Git, Fetch API',
     publishment: 'https://picture-gallery-iota.vercel.app/',
   },
-];
+  {
+    id: 14,
+    name: 'Movie Searcher',
+    link: 'https://github.com/Win4esterD/Movie-searcher',
+    technologies: 'Next.js, React, TypeScript, Mantine, Git, Fetch API',
+    publishment: 'https://movie-searcher-brown.vercel.app/',
+  },
+] satisfies PetProject[];
