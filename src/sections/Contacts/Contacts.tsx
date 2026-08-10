@@ -22,7 +22,7 @@ export function Contacts() {
             <span>
               <b>Phone:</b>{' '}
             </span>
-            <span>+375445379839</span>
+            <a href="tel:+375445379839">+375445379839</a>
           </p>
           <p className={styles.contactInfoText}>
             <span>

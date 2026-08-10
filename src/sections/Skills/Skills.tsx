@@ -28,6 +28,7 @@ export function Skills() {
           <li className={styles.proficiencyLi}>English (C1)</li>
           <li className={styles.proficiencyLi}>Spanish (B2)</li>
           <li className={styles.proficiencyLi}>Russian (Native)</li>
+          <li className={styles.proficiencyLi}>AI Tools (Cursor, Claude. etc.)</li>
         </ul>
       </div>
     </section>

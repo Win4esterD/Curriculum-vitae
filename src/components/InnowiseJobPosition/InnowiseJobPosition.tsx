@@ -6,7 +6,7 @@ export function InnowiseJobPosition() {
       <h3>Frontend Developer</h3>
       <p>
         <b>Company: </b>
-        <a href="https://jobs-innowise.com/">Innowise</a> | Minsk | September 2025 - September 2026
+        <a href="https://jobs-innowise.com/">Innowise</a> | Minsk | September 2025 - August 2026
       </p>
       <p>
         <b>Stack: </b>Next.js, React, React Query, TypeScript, Jest, React Testing Library,
@@ -15,11 +15,10 @@ export function InnowiseJobPosition() {
       <h4 className={styles.aboutProject}>About Project:</h4>
       <p className={styles.serviceDescription}>
         <a href="https://jobs-innowise.com/">Innowise</a> is an outstaff and outsource company. I
-        worked there as Frontend Developer for a client from California. Because of a non-disclosure
-        agreement, I cannot disclose the name of the client, but can tell about the project. It was
-        a digital marketing platform, where companies from around the world can advertise their
-        goods and services. Create marketing campaigns and advertise their products in their target
-        countries.
+        worked there as Frontend Developer for a client from California. Due to NDA I cannot
+        disclose the name of the client, but the project was a digital marketing platform, where
+        companies from around the world could advertise their goods and services. Create and manage
+        their marketing campaigns and advertise their products in their target countries.
       </p>
       <h4 className={styles.doneInInnowiseTitle}>What was done in Innowise:</h4>
       <ol className={styles.InnowiseAchievementList}>
@@ -57,7 +56,7 @@ export function InnowiseJobPosition() {
         <li>
           After the earlier-suggested <b>Spec-Driven Testing</b> proved useful, reduced technical
           debt of the team by <b>70%</b>, by covering all critical functionality with tests, using
-          Spec Driven Development (AI driven testing)
+          Spec Driven Development (AI driven testing).
         </li>
       </ol>
     </div>
