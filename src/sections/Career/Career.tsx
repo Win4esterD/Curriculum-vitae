@@ -1,30 +1,34 @@
 import styles from './Career.module.scss';
 import { OwnerPanelJobPosition } from '../../components/OwnerPanelJobPosition/OwnerPanelJobPosition';
 import { OtherJobPosition } from '../../components/OtherJobPosition/OtherJobPosition';
+import { InnowiseJobPosition } from '../../components/InnowiseJobPosition/InnowiseJobPosition';
 
 export function Career() {
   return (
     <section className={styles.careerWrapper}>
       <h2 className="jobs__title">Job Positions:</h2>
+      <InnowiseJobPosition />
       <OwnerPanelJobPosition />
       <br />
       <hr />
-      <OtherJobPosition
-        positionName={'Frontend developer'}
-        company={'Solvd'}
-        companySiteLink={'https://laba.solvd.com/'}
-        city="Minsk"
-        workingPeriod="June 2023 - December 2023"
-        responsibilities={[
-          'Developed application for tasks planning during probation period, to show my capabilities as Frontend developer',
-          'Completed probation period and passed final exam to get access to comercial projects',
-          `Played key role in development of the comercial project "Shoe marketplace"`,
-          `Developed UI of the main page of the marketplace`,
-          `Implemented client page, where a user can edit his data, products etc.`,
-          `Developed products page, implemented filters by: trademark, shoe size, color, quantity etc.`,
-          `Implemented adaptive design for all pages, fixed bugs in adaptive design`,
-        ]}
-      />
+      <div className={styles.solvdWrapper}>
+        <OtherJobPosition
+          positionName={'Frontend developer'}
+          company={'Solvd'}
+          companySiteLink={'https:/solvd.com/'}
+          city="Minsk"
+          workingPeriod="June 2023 - December 2023"
+          jobDescription={
+            'During my probation at Solvd, I developed a task-planning application to demonstrate my skills. After successfully passing the final exam, I joined a commercial project – an online shoe marketplace. My key contributions included:'
+          }
+          responsibilities={[
+            `Developed UI of the main page of the marketplace`,
+            `Implemented client page, where a user can edit his data, products etc.`,
+            `Developed products page, implemented filters by: trademark, shoe size, color, quantity etc.`,
+            `Implemented adaptive design for all pages, fixed bugs in adaptive design`,
+          ]}
+        />
+      </div>
       <br />
       <hr />
       <OtherJobPosition

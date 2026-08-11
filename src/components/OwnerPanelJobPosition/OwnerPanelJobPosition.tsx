@@ -7,20 +7,20 @@ export function OwnerPanelJobPosition() {
       <p>
         <b>Company: </b>
         <a href="https://www.linkedin.com/company/owner-panel/posts/?feedView=all">Owner Panel</a> |
-        Warsaw | January 2024 - Working now
+        Warsaw | January 2024 - August 2025
       </p>
       <p>
-        <b>Stack: </b>Next.js, React, React Router, Mantine, Redux, Redux Toolkit, Axios, Zustand,
-        dayjs, i18n, SaSS, Google Recaptcha
+        <b>Stack: </b>Next.js, React, React Router, TypeScript, Mantine, Redux, Redux Toolkit,
+        Axios, Zustand, dayjs, i18n, Sass, Google Recaptcha
       </p>
       <h4 className={styles.aboutProject}>About Project:</h4>
       <p className={styles.serviceDescription}>
-        <a href="https://owner-panel.com/">Owner Panel</a> is a service, that allows rental property
-        owners to keep accounting records online, in Admin panel. It allows to accept payments
-        online, document bookings, build your own buisiness website using website constructor. The
-        project consists of 3 major parts: Admin Panel, Client's website and company landing page. I
-        played a significant role in the development of the project, as Frontend developer. Below
-        are mentioned most remembered features that I implemented:
+        <a href="https://owner-panel.com/">Owner Panel</a> is a service that allows rental property
+        owners to keep accounting records online, in Admin panel. It allows accepting payments
+        online, document bookings, build your own business website using website constructor. The
+        project consists of 3 major parts: Admin Panel, Client website and company landing page. I
+        played a significant role in the development of the project, as a Frontend developer. Below
+        are mentioned the most notable features that I implemented:
       </p>
       <h4 className={styles.doneOnAdminPanelTitle}>What was done on Admin Panel:</h4>
       <ol className={styles.adminPanelAchievementList}>
@@ -49,8 +49,8 @@ export function OwnerPanelJobPosition() {
           persistent search results using searchParams.
         </li>
         <li>
-          Added <b>multi-language support</b> (English, Russian, Spanish, Polish, German, Ukranian, Indonesian) throughout the
-          application using an i18n framework.
+          Added <b>multi-language support</b> (English, Russian, Spanish, Polish, German, Ukrainian,
+          Indonesian) throughout the application using an i18n framework.
         </li>
         <li>
           Integrated <b>Stripe payments</b>, including secure checkout and redirect pages for
@@ -69,7 +69,7 @@ export function OwnerPanelJobPosition() {
           components to improve initial load speed.
         </li>
         <li>
-          Implemented <b>lazy retry</b> feature, to prevent application from crushing after
+          Implemented <b>lazy retry</b> feature, to prevent application from crashing after
           redeployment.
         </li>
         <li>
@@ -109,7 +109,7 @@ export function OwnerPanelJobPosition() {
           their payment history without leaving the platform.
         </li>
       </ol>
-      <h4 className={styles.doneOnHotelSiteTitle}>What was done on Hotel's site:</h4>
+      <h4 className={styles.doneOnHotelSiteTitle}>What was done on Hotel site:</h4>
       <ol className={styles.hotelSiteAchievementList}>
         <li>
           Developed a <b>fully responsive</b> hotel website, ensuring seamless display across all
@@ -149,7 +149,7 @@ export function OwnerPanelJobPosition() {
         </li>
         <li>
           Added <b>internationalized URL paths</b> to enhance the landing page’s{' '}
-          <b>SEO performance</b>
+          <b>SEO performance</b>{' '}
           across different languages and regions.
         </li>
       </ol>

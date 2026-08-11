@@ -1,3 +1,5 @@
+@use '/src/mixins/resolutions/printer.scss' as *;
+
 .jobWrapper {
   margin-top: 1.5rem;
 }
@@ -54,4 +56,10 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+@include printer {
+  .jobWrapper {
+    margin-top: 7rem;
+  }
 }

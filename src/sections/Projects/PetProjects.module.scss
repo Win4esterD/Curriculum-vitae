@@ -1,3 +1,5 @@
+@use '/src/mixins/resolutions/printer.scss' as *;
+
 .projectsWrapper {
   margin-left: var(--main-margin-left);
   width: var(--main-width);
@@ -38,5 +40,11 @@
 @media (max-width: 400px) {
   .projectsTable {
     font-size: 0.8em;
+  }
+}
+
+@include printer {
+  .projects {
+    margin-top: 6rem;
   }
 }

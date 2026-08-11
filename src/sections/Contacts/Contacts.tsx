@@ -13,7 +13,7 @@ export function Contacts() {
       </div>
       <div className={styles.contactInfo}>
         <div className="contact-info__foto">
-          <img src="assets/img/foto.jpg" alt="foto" className={styles.foto} />
+          <img src="assets/img/foto.jpg" alt="foto" className={styles.foto} width={211} height={259}/>
         </div>
         <div className={styles.contactInformation}>
           <h3>Contact information:</h3>
@@ -22,11 +22,11 @@ export function Contacts() {
             <span>
               <b>Phone:</b>{' '}
             </span>
-            <span>+375445379839</span>
+            <a href="tel:+375445379839">+375445379839</a>
           </p>
           <p className={styles.contactInfoText}>
             <span>
-              <b>E-mail:</b>{' '}
+              <b>Email:</b>{' '}
             </span>
             <span>
               <a href="mailto:win4ester2016@yandex.ru">win4ester2016@yandex.ru</a>
