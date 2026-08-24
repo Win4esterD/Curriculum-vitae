@@ -19,7 +19,7 @@ export function AboutMe() {
           <span> Minsk</span>
         </p>
         <p className={styles.aboutMe}>
-          I'm a Frontend developer with 4 years of experience, capable of developing complex web
+          I'm a Frontend developer with 3 years of experience, capable of developing complex web
           applications that require modern approaches in development. I have decent experience
           working with modern Frontend technologies, you can find my technical stack below. I
           actively use AI to increase my performance and reduce the time needed for implementation
