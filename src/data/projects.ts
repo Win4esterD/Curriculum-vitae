@@ -102,7 +102,7 @@ export const projects = [
     id: 14,
     name: 'Movie Searcher',
     link: 'https://github.com/Win4esterD/Movie-searcher',
-    technologies: 'Next.js, React, TypeScript, Mantine, Git, Storybook',
+    technologies: 'Next.js, React, TypeScript, Mantine, Git, Storybook, Tanstack Query',
     publishment: 'https://movie-searcher-brown.vercel.app/',
   },
 ] satisfies PetProject[];
