@@ -6,7 +6,7 @@ export function InnowiseJobPosition() {
       <h3>Frontend Developer</h3>
       <p>
         <b>Company: </b>
-        <a href="https://jobs-innowise.com/">Innowise</a> | Minsk | September 2025 - August 2026
+        <a href="https://jobs-innowise.com/">Innowise</a> | Minsk | September 2025 - September 2026
       </p>
       <p>
         <b>Stack: </b>Next.js, React, TanStack Query, TypeScript, Jest, React Testing Library,
