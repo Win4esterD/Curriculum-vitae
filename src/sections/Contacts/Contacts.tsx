@@ -13,7 +13,7 @@ export function Contacts() {
       </div>
       <div className={styles.contactInfo}>
         <div className="contact-info__foto">
-          <img src="assets/img/foto.jpg" alt="foto" className={styles.foto} width={211} height={259}/>
+          <img src="assets/img/foto.jpg" alt="foto" className={styles.foto} width={250} height={334}/>
         </div>
         <div className={styles.contactInformation}>
           <h3>Contact information:</h3>
